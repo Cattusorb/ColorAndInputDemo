@@ -9,8 +9,23 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/output"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/nothing"
+        android:textSize="32sp"/>
 
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button_label"
+        android:textSize="32sp"
+        android:onClick="submit"/>
 </LinearLayout>
