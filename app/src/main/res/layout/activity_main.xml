@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/nothing"
-        android:textSize="32sp"/>
+        android:textSize="32sp"
+        android:background="@color/blue"/>
 
     <EditText
         android:id="@+id/input"
